@@ -104,7 +104,7 @@ const Hero = () => {
                 fontWeight: 700,
               }}
             >
-              Turn your ideas
+              Turn Procedence
               <br />
               into{' '}
               <Typography
@@ -127,8 +127,8 @@ const Hero = () => {
               color="text.secondary"
               sx={{ fontWeight: 400 }}
             >
-              theFront will make your product look modern and professional while
-              saving you precious time.
+              theFront! will make your product look modern and professional
+              while saving you precious time.
             </Typography>
             <Box
               display="flex"
