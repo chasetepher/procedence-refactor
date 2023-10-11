@@ -11,14 +11,17 @@ const images = [
   {
     group: [
       {
-        cover:
-          'https://assets.maccarianagency.com/screenshots/the-front/img1.png',
-        coverDark:
-          'https://assets.maccarianagency.com/screenshots/the-front/img1--dark.png',
+        cover: 'https://procedencebucket2023.s3.amazonaws.com/GardenStock',
+        coverDark: 'https://procedencebucket2023.s3.amazonaws.com/GardenStock',
       },
+      // {
+      //   cover: 'https://procedencebucket2023.s3.amazonaws.com/KeyboardStock',
+      //   coverDark:
+      //     'https://assets.maccarianagency.com/screenshots/the-front/img4--dark.png',
+      // },
       {
         cover:
-          'https://assets.maccarianagency.com/screenshots/the-front/img4.png',
+          'https://procedencebucket2023.s3.amazonaws.com/WindowsCourtyardStock',
         coverDark:
           'https://assets.maccarianagency.com/screenshots/the-front/img4--dark.png',
       },
@@ -34,15 +37,13 @@ const images = [
       },
       {
         cover:
-          'https://assets.maccarianagency.com/screenshots/the-front/img10.png',
+          'https://procedencebucket2023.s3.amazonaws.com/procedencebannerimage.jpg',
         coverDark:
-          'https://assets.maccarianagency.com/screenshots/the-front/img10--dark.png',
+          'https://procedencebucket2023.s3.amazonaws.com/procedencebannerimage.jpg',
       },
       {
-        cover:
-          'https://assets.maccarianagency.com/screenshots/the-front/img7.png',
-        coverDark:
-          'https://assets.maccarianagency.com/screenshots/the-front/img7--dark.png',
+        cover: 'https://procedencebucket2023.s3.amazonaws.com/PlaneStock',
+        coverDark: 'https://procedencebucket2023.s3.amazonaws.com/PlaneStock',
       },
     ],
   },
@@ -61,8 +62,7 @@ const images = [
           'https://assets.maccarianagency.com/screenshots/the-front/img24--dark.png',
       },
       {
-        cover:
-          'https://assets.maccarianagency.com/screenshots/the-front/img17.png',
+        cover: 'https://procedencebucket2023.s3.amazonaws.com/WaveStock',
         coverDark:
           'https://assets.maccarianagency.com/screenshots/the-front/img17--dark.png',
       },

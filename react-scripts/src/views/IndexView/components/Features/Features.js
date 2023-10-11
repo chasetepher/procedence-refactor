@@ -56,9 +56,19 @@ const Features = () => {
               adapt to new technology. This same virtue must remain to maintain
               our global leadership position.
             </Typography>
+            <Typography variant={'h6'} component={'p'} color={'text.secondary'}>
+              At Procedence, it is our mission to help ensure that continuation
+              happens. We constantly submerge ourselves in the vast process vs.
+              production issues that affect our clients.
+            </Typography>
+            <Typography variant={'h6'} component={'p'} color={'text.secondary'}>
+              Plus, our approach to learning how to adapt to new technology is
+              non-threatening and fun, yet practical, and yes, extremely
+              productive.
+            </Typography>
           </Box>
           <Grid container spacing={2}>
-            {mock.map((item, i) => (
+            {/* {mock.map((item, i) => (
               <Grid key={i} item xs={12} md={4}>
                 <Typography variant="h4" color={'primary'} gutterBottom>
                   <VisibilitySensor
@@ -77,7 +87,7 @@ const Features = () => {
                   {item.subtitle}
                 </Typography>
               </Grid>
-            ))}
+            ))} */}
           </Grid>
         </Grid>
         <Grid
@@ -97,7 +107,7 @@ const Features = () => {
               height={1}
               width={1}
               minHeight={300}
-              image="https://assets.maccarianagency.com/backgrounds/img4.jpg"
+              image="https://procedencebucket2023.s3.amazonaws.com/KeyboardStock"
             />
           </Box>
         </Grid>

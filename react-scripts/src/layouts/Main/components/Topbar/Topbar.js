@@ -32,15 +32,15 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
         display={'flex'}
         component="a"
         href="/"
-        title="theFront"
-        width={{ xs: 100, md: 120 }}
+        title="Procedence Logo"
+        width={{ xs: 100, md: 160 }}
       >
         <Box
           component={'img'}
           src={
             mode === 'light' && !colorInvert
-              ? 'https://assets.maccarianagency.com/the-front/logos/logo.svg'
-              : 'https://assets.maccarianagency.com/the-front/logos/logo-negative.svg'
+              ? 'https://procedencebucket2023.s3.amazonaws.com/ProcedenceSailsLogo'
+              : 'https://procedencebucket2023.s3.amazonaws.com/ProcedenceSailsLogo'
           }
           height={1}
           width={1}
@@ -80,7 +80,7 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
           /> */}
         </Box>
         <Box marginLeft={4}>
-          <Button
+          {/* <Button
             variant="text"
             color="primary"
             component="a"
@@ -89,7 +89,7 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
             size="large"
           >
             Training Catalog
-          </Button>
+          </Button> */}
         </Box>
         <Box marginLeft={4}>
           <Button
@@ -97,7 +97,7 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
             color="primary"
             component="a"
             target="blank"
-            href="https://mui.com/store/items/the-front-landing-page/"
+            href="https://www.office.com/?auth=2&home=1"
             size="large"
           >
             Client Login

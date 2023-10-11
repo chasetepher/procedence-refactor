@@ -26,9 +26,9 @@ const images = [
     group: [
       {
         cover:
-          'https://assets.maccarianagency.com/screenshots/the-front/img10.png',
+          'https://procedencebucket2023.s3.amazonaws.com/procedencebannerimage.jpg',
         coverDark:
-          'https://assets.maccarianagency.com/screenshots/the-front/img10--dark.png',
+          'https://procedencebucket2023.s3.amazonaws.com/procedencebannerimage.jpg',
       },
       {
         cover:
