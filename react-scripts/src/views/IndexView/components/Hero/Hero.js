@@ -11,7 +11,7 @@ const images = [
   {
     group: [
       {
-        cover: 'https://procedencebucket2023.s3.amazonaws.com/GardenStock',
+        cover: 'https://procedencebucket2023.s3.amazonaws.com/DartStock',
         coverDark: 'https://procedencebucket2023.s3.amazonaws.com/GardenStock',
       },
       // {
@@ -20,8 +20,7 @@ const images = [
       //     'https://assets.maccarianagency.com/screenshots/the-front/img4--dark.png',
       // },
       {
-        cover:
-          'https://procedencebucket2023.s3.amazonaws.com/WindowsCourtyardStock',
+        cover: 'https://procedencebucket2023.s3.amazonaws.com/InvertedStock',
         coverDark:
           'https://assets.maccarianagency.com/screenshots/the-front/img4--dark.png',
       },
@@ -30,14 +29,13 @@ const images = [
   {
     group: [
       {
-        cover:
-          'https://assets.maccarianagency.com/screenshots/the-front/img13.png',
+        cover: 'https://procedencebucket2023.s3.amazonaws.com/GardenStock',
         coverDark:
           'https://assets.maccarianagency.com/screenshots/the-front/img13--dark.png',
       },
       {
         cover:
-          'https://procedencebucket2023.s3.amazonaws.com/procedencebannerimage.jpg',
+          'https://procedencebucket2023.s3.amazonaws.com/ConstructionStock',
         coverDark:
           'https://procedencebucket2023.s3.amazonaws.com/procedencebannerimage.jpg',
       },
@@ -55,20 +53,19 @@ const images = [
         coverDark:
           'https://assets.maccarianagency.com/screenshots/the-front/img6--dark.png',
       },
-      {
-        cover:
-          'https://assets.maccarianagency.com/screenshots/the-front/img24.png',
-        coverDark:
-          'https://assets.maccarianagency.com/screenshots/the-front/img24--dark.png',
-      },
+
       {
         cover: 'https://procedencebucket2023.s3.amazonaws.com/WaveStock',
         coverDark:
           'https://assets.maccarianagency.com/screenshots/the-front/img17--dark.png',
       },
       {
-        cover:
-          'https://assets.maccarianagency.com/screenshots/the-front/img12.png',
+        cover: 'https://procedencebucket2023.s3.amazonaws.com/FlagStock',
+        coverDark:
+          'https://assets.maccarianagency.com/screenshots/the-front/img24--dark.png',
+      },
+      {
+        cover: 'https://procedencebucket2023.s3.amazonaws.com/KeyboardStock',
         coverDark:
           'https://assets.maccarianagency.com/screenshots/the-front/img12--dark.png',
       },

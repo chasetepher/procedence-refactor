@@ -107,7 +107,7 @@ const Features = () => {
               height={1}
               width={1}
               minHeight={300}
-              image="https://procedencebucket2023.s3.amazonaws.com/KeyboardStock"
+              image="https://procedencebucket2023.s3.amazonaws.com/ParkStock"
             />
           </Box>
         </Grid>
