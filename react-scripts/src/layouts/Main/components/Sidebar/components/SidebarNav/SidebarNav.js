@@ -5,6 +5,7 @@ import Button from '@mui/material/Button';
 import { useTheme } from '@mui/material/styles';
 
 import NavItem from './components/NavItem';
+import { Typography } from '@mui/material';
 
 const SidebarNav = ({ pages }) => {
   const theme = useTheme();
@@ -32,9 +33,7 @@ const SidebarNav = ({ pages }) => {
           <Box
             component={'img'}
             src={
-              mode === 'light'
-                ? 'https://assets.maccarianagency.com/the-front/logos/logo.svg'
-                : 'https://assets.maccarianagency.com/the-front/logos/logo-negative.svg'
+              'https://procedencebucket2023.s3.amazonaws.com/ProcedenceSailsLogo'
             }
             height={1}
             width={1}
@@ -43,12 +42,30 @@ const SidebarNav = ({ pages }) => {
       </Box>
       <Box paddingX={2} paddingY={2}>
         <Box>
-          <NavItem title={'Landings'} items={landingPages} />
+          <Button
+            variant="text"
+            color="primary"
+            component="a"
+            target="blank"
+            href="https://www.office.com/?auth=2&home=1"
+            size="large"
+          >
+            Client Login
+          </Button>{' '}
         </Box>
         <Box>
-          <NavItem title={'Company'} items={companyPages} />
+          <Button
+            variant="text"
+            color="primary"
+            component="a"
+            target="blank"
+            href="mailto:rriggs@procedence.com"
+            size="large"
+          >
+            Contact Us
+          </Button>
         </Box>
-        <Box>
+        {/* <Box>
           <NavItem title={'Pages'} items={secondaryPages} />
         </Box>
         <Box>
@@ -59,8 +76,8 @@ const SidebarNav = ({ pages }) => {
         </Box>
         <Box>
           <NavItem title={'Portfolio'} items={portfolioPages} />
-        </Box>
-        <Box marginTop={2}>
+        </Box>  */}
+        {/* <Box marginTop={2}>
           <Button
             size={'large'}
             variant="outlined"
@@ -70,8 +87,8 @@ const SidebarNav = ({ pages }) => {
           >
             Documentation
           </Button>
-        </Box>
-        <Box marginTop={1}>
+        </Box> */}
+        {/* <Box marginTop={1}>
           <Button
             size={'large'}
             variant="contained"
@@ -83,7 +100,7 @@ const SidebarNav = ({ pages }) => {
           >
             Purchase now
           </Button>
-        </Box>
+        </Box> */}
       </Box>
     </Box>
   );

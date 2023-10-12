@@ -34,9 +34,9 @@ const Main = ({ children, colorInvert = false, bgcolor = 'transparent' }) => {
 
   const open = isMd ? false : openSidebar;
 
-  useEffect(() => {
-    console.log('childs', children);
-  }, []);
+  // useEffect(() => {
+  //   console.log('childs', children);
+  // }, []);
 
   const trigger = useScrollTrigger({
     disableHysteresis: true,

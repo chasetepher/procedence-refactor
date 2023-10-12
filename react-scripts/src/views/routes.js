@@ -60,202 +60,202 @@ const routes = [
     path: '/',
     renderer: (params = {}) => <IndexView {...params} />,
   },
-  {
-    path: '/home',
-    renderer: (params = {}) => <HomeView {...params} />,
-  },
-  {
-    path: '/customers',
-    renderer: (params = {}) => <CustomersView {...params} />,
-  },
-  {
-    path: '/hire-us',
-    renderer: (params = {}) => <HireUsView {...params} />,
-  },
-  {
-    path: '/faq',
-    renderer: (params = {}) => <FaqView {...params} />,
-  },
-  {
-    path: '/career-listing',
-    renderer: (params = {}) => <CareerListingView {...params} />,
-  },
-  {
-    path: '/career-listing-minimal',
-    renderer: (params = {}) => <CareerListingMinimalView {...params} />,
-  },
-  {
-    path: '/career-opening',
-    renderer: (params = {}) => <CareerOpeningView {...params} />,
-  },
-  {
-    path: '/contact-page',
-    renderer: (params = {}) => <ContactPageView {...params} />,
-  },
-  {
-    path: '/coworking',
-    renderer: (params = {}) => <CoworkingView {...params} />,
-  },
-  {
-    path: '/e-learning',
-    renderer: (params = {}) => <ElearningView {...params} />,
-  },
-  {
-    path: '/enterprise',
-    renderer: (params = {}) => <EnterpriseView {...params} />,
-  },
-  {
-    path: '/service',
-    renderer: (params = {}) => <ServiceView {...params} />,
-  },
-  {
-    path: '/web-basic',
-    renderer: (params = {}) => <WebBasicView {...params} />,
-  },
-  {
-    path: '/desktop-app',
-    renderer: (params = {}) => <DesktopAppView {...params} />,
-  },
-  {
-    path: '/expo',
-    renderer: (params = {}) => <ExpoView {...params} />,
-  },
-  {
-    path: '/agency',
-    renderer: (params = {}) => <AgencyView {...params} />,
-  },
-  {
-    path: '/startup',
-    renderer: (params = {}) => <StartupView {...params} />,
-  },
-  {
-    path: '/design-company',
-    renderer: (params = {}) => <DesignCompanyView {...params} />,
-  },
-  {
-    path: '/mobile-app',
-    renderer: (params = {}) => <MobileAppView {...params} />,
-  },
-  {
-    path: '/job-listing',
-    renderer: (params = {}) => <JobListingView {...params} />,
-  },
-  {
-    path: '/rental',
-    renderer: (params = {}) => <RentalView {...params} />,
-  },
-  {
-    path: '/cloud-hosting',
-    renderer: (params = {}) => <CloudHostingView {...params} />,
-  },
-  {
-    path: '/logistics',
-    renderer: (params = {}) => <LogisticsView {...params} />,
-  },
-  {
-    path: '/e-commerce',
-    renderer: (params = {}) => <EcommerceView {...params} />,
-  },
-  {
-    path: '/help-center',
-    renderer: (params = {}) => <HelpCenterView {...params} />,
-  },
-  {
-    path: '/help-center-article',
-    renderer: (params = {}) => <HelpCenterArticleView {...params} />,
-  },
-  {
-    path: '/portfolio-page',
-    renderer: (params = {}) => <PortfolioPageView {...params} />,
-  },
-  {
-    path: '/portfolio-masonry',
-    renderer: (params = {}) => <PortfolioMasonryView {...params} />,
-  },
-  {
-    path: '/portfolio-grid',
-    renderer: (params = {}) => <PortfolioGridView {...params} />,
-  },
-  {
-    path: '/company-terms',
-    renderer: (params = {}) => <CompanyTermsView {...params} />,
-  },
-  {
-    path: '/contact-sidebar-map',
-    renderer: (params = {}) => <ContactPageSidebarMapView {...params} />,
-  },
-  {
-    path: '/contact-page-cover',
-    renderer: (params = {}) => <ContactPageCoverView {...params} />,
-  },
-  {
-    path: '/about',
-    renderer: (params = {}) => <AboutView {...params} />,
-  },
-  {
-    path: '/about-side-cover',
-    renderer: (params = {}) => <AboutSideCoverView {...params} />,
-  },
-  {
-    path: '/pricing',
-    renderer: (params = {}) => <PricingView {...params} />,
-  },
-  {
-    path: '/blog-search',
-    renderer: (params = {}) => <BlogSearchView {...params} />,
-  },
-  {
-    path: '/blog-newsroom',
-    renderer: (params = {}) => <BlogNewsroomView {...params} />,
-  },
-  {
-    path: '/blog-article',
-    renderer: (params = {}) => <BlogArticleView {...params} />,
-  },
-  {
-    path: '/blog-reach-view',
-    renderer: (params = {}) => <BlogReachViewView {...params} />,
-  },
-  {
-    path: '/password-reset-cover',
-    renderer: (params = {}) => <PasswordResetCoverView {...params} />,
-  },
-  {
-    path: '/password-reset-simple',
-    renderer: (params = {}) => <PasswordResetSimpleView {...params} />,
-  },
-  {
-    path: '/signin-simple',
-    renderer: (params = {}) => <SigninSimpleView {...params} />,
-  },
-  {
-    path: '/signin-cover',
-    renderer: (params = {}) => <SigninCoverView {...params} />,
-  },
-  {
-    path: '/signup-simple',
-    renderer: (params = {}) => <SignupSimpleView {...params} />,
-  },
-  {
-    path: '/signup-cover',
-    renderer: (params = {}) => <SignupCoverView {...params} />,
-  },
-  {
-    path: '/account-billing',
-    renderer: (params = {}) => <AccountBillingView {...params} />,
-  },
-  {
-    path: '/account-general',
-    renderer: (params = {}) => <AccountGeneralView {...params} />,
-  },
-  {
-    path: '/account-notifications',
-    renderer: (params = {}) => <AccountNotificationsView {...params} />,
-  },
-  {
-    path: '/account-security',
-    renderer: (params = {}) => <AccountSecurityView {...params} />,
-  },
+  // {
+  //   path: '/home',
+  //   renderer: (params = {}) => <HomeView {...params} />,
+  // },
+  // {
+  //   path: '/customers',
+  //   renderer: (params = {}) => <CustomersView {...params} />,
+  // },
+  // {
+  //   path: '/hire-us',
+  //   renderer: (params = {}) => <HireUsView {...params} />,
+  // },
+  // {
+  //   path: '/faq',
+  //   renderer: (params = {}) => <FaqView {...params} />,
+  // },
+  // {
+  //   path: '/career-listing',
+  //   renderer: (params = {}) => <CareerListingView {...params} />,
+  // },
+  // {
+  //   path: '/career-listing-minimal',
+  //   renderer: (params = {}) => <CareerListingMinimalView {...params} />,
+  // },
+  // {
+  //   path: '/career-opening',
+  //   renderer: (params = {}) => <CareerOpeningView {...params} />,
+  // },
+  // {
+  //   path: '/contact-page',
+  //   renderer: (params = {}) => <ContactPageView {...params} />,
+  // },
+  // {
+  //   path: '/coworking',
+  //   renderer: (params = {}) => <CoworkingView {...params} />,
+  // },
+  // {
+  //   path: '/e-learning',
+  //   renderer: (params = {}) => <ElearningView {...params} />,
+  // },
+  // {
+  //   path: '/enterprise',
+  //   renderer: (params = {}) => <EnterpriseView {...params} />,
+  // },
+  // {
+  //   path: '/service',
+  //   renderer: (params = {}) => <ServiceView {...params} />,
+  // },
+  // {
+  //   path: '/web-basic',
+  //   renderer: (params = {}) => <WebBasicView {...params} />,
+  // },
+  // {
+  //   path: '/desktop-app',
+  //   renderer: (params = {}) => <DesktopAppView {...params} />,
+  // },
+  // {
+  //   path: '/expo',
+  //   renderer: (params = {}) => <ExpoView {...params} />,
+  // },
+  // {
+  //   path: '/agency',
+  //   renderer: (params = {}) => <AgencyView {...params} />,
+  // },
+  // {
+  //   path: '/startup',
+  //   renderer: (params = {}) => <StartupView {...params} />,
+  // },
+  // {
+  //   path: '/design-company',
+  //   renderer: (params = {}) => <DesignCompanyView {...params} />,
+  // },
+  // {
+  //   path: '/mobile-app',
+  //   renderer: (params = {}) => <MobileAppView {...params} />,
+  // },
+  // {
+  //   path: '/job-listing',
+  //   renderer: (params = {}) => <JobListingView {...params} />,
+  // },
+  // {
+  //   path: '/rental',
+  //   renderer: (params = {}) => <RentalView {...params} />,
+  // },
+  // {
+  //   path: '/cloud-hosting',
+  //   renderer: (params = {}) => <CloudHostingView {...params} />,
+  // },
+  // {
+  //   path: '/logistics',
+  //   renderer: (params = {}) => <LogisticsView {...params} />,
+  // },
+  // {
+  //   path: '/e-commerce',
+  //   renderer: (params = {}) => <EcommerceView {...params} />,
+  // },
+  // {
+  //   path: '/help-center',
+  //   renderer: (params = {}) => <HelpCenterView {...params} />,
+  // },
+  // {
+  //   path: '/help-center-article',
+  //   renderer: (params = {}) => <HelpCenterArticleView {...params} />,
+  // },
+  // {
+  //   path: '/portfolio-page',
+  //   renderer: (params = {}) => <PortfolioPageView {...params} />,
+  // },
+  // {
+  //   path: '/portfolio-masonry',
+  //   renderer: (params = {}) => <PortfolioMasonryView {...params} />,
+  // },
+  // {
+  //   path: '/portfolio-grid',
+  //   renderer: (params = {}) => <PortfolioGridView {...params} />,
+  // },
+  // {
+  //   path: '/company-terms',
+  //   renderer: (params = {}) => <CompanyTermsView {...params} />,
+  // },
+  // {
+  //   path: '/contact-sidebar-map',
+  //   renderer: (params = {}) => <ContactPageSidebarMapView {...params} />,
+  // },
+  // {
+  //   path: '/contact-page-cover',
+  //   renderer: (params = {}) => <ContactPageCoverView {...params} />,
+  // },
+  // {
+  //   path: '/about',
+  //   renderer: (params = {}) => <AboutView {...params} />,
+  // },
+  // {
+  //   path: '/about-side-cover',
+  //   renderer: (params = {}) => <AboutSideCoverView {...params} />,
+  // },
+  // {
+  //   path: '/pricing',
+  //   renderer: (params = {}) => <PricingView {...params} />,
+  // },
+  // {
+  //   path: '/blog-search',
+  //   renderer: (params = {}) => <BlogSearchView {...params} />,
+  // },
+  // {
+  //   path: '/blog-newsroom',
+  //   renderer: (params = {}) => <BlogNewsroomView {...params} />,
+  // },
+  // {
+  //   path: '/blog-article',
+  //   renderer: (params = {}) => <BlogArticleView {...params} />,
+  // },
+  // {
+  //   path: '/blog-reach-view',
+  //   renderer: (params = {}) => <BlogReachViewView {...params} />,
+  // },
+  // {
+  //   path: '/password-reset-cover',
+  //   renderer: (params = {}) => <PasswordResetCoverView {...params} />,
+  // },
+  // {
+  //   path: '/password-reset-simple',
+  //   renderer: (params = {}) => <PasswordResetSimpleView {...params} />,
+  // },
+  // {
+  //   path: '/signin-simple',
+  //   renderer: (params = {}) => <SigninSimpleView {...params} />,
+  // },
+  // {
+  //   path: '/signin-cover',
+  //   renderer: (params = {}) => <SigninCoverView {...params} />,
+  // },
+  // {
+  //   path: '/signup-simple',
+  //   renderer: (params = {}) => <SignupSimpleView {...params} />,
+  // },
+  // {
+  //   path: '/signup-cover',
+  //   renderer: (params = {}) => <SignupCoverView {...params} />,
+  // },
+  // {
+  //   path: '/account-billing',
+  //   renderer: (params = {}) => <AccountBillingView {...params} />,
+  // },
+  // {
+  //   path: '/account-general',
+  //   renderer: (params = {}) => <AccountGeneralView {...params} />,
+  // },
+  // {
+  //   path: '/account-notifications',
+  //   renderer: (params = {}) => <AccountNotificationsView {...params} />,
+  // },
+  // {
+  //   path: '/account-security',
+  //   renderer: (params = {}) => <AccountSecurityView {...params} />,
+  // },
   {
     path: '/not-found',
     renderer: (params = {}) => <NotFoundView {...params} />,
