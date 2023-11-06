@@ -33,14 +33,12 @@ const Topbar = ({ onSidebarOpen, pages, colorInvert = false }) => {
         component="a"
         href="/"
         title="Procedence Logo"
-        width={{ xs: 100, md: 160 }}
+        width={{ xs: 100, md: '15%' }}
       >
         <Box
           component={'img'}
           src={
-            mode === 'light' && !colorInvert
-              ? 'https://procedencebucket2023.s3.amazonaws.com/ProcedenceSailsLogo'
-              : 'https://procedencebucket2023.s3.amazonaws.com/ProcedenceSailsLogo'
+            'https://procedencebucket2023.s3.amazonaws.com/Procedence-Sail-and-Text-Large.png'
           }
           height={1}
           width={1}

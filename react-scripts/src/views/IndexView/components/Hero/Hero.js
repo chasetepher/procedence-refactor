@@ -11,8 +11,8 @@ const images = [
   {
     group: [
       {
-        cover: 'https://procedencebucket2023.s3.amazonaws.com/DartStock',
-        coverDark: 'https://procedencebucket2023.s3.amazonaws.com/GardenStock',
+        cover:
+          'https://procedencebucket2023.s3.amazonaws.com/photo-1524758870432-af57e54afa26.avif',
       },
       // {
       //   cover: 'https://procedencebucket2023.s3.amazonaws.com/KeyboardStock',
@@ -20,28 +20,24 @@ const images = [
       //     'https://assets.maccarianagency.com/screenshots/the-front/img4--dark.png',
       // },
       {
-        cover: 'https://procedencebucket2023.s3.amazonaws.com/InvertedStock',
-        coverDark:
-          'https://assets.maccarianagency.com/screenshots/the-front/img4--dark.png',
+        cover:
+          'https://procedencebucket2023.s3.amazonaws.com/redd-f-5U_28ojjgms-unsplash+(2).jpg',
       },
     ],
   },
   {
     group: [
       {
-        cover: 'https://procedencebucket2023.s3.amazonaws.com/GardenStock',
-        coverDark:
-          'https://assets.maccarianagency.com/screenshots/the-front/img13--dark.png',
+        cover:
+          'https://procedencebucket2023.s3.amazonaws.com/photo-1601933513556-7926c45d1c49.avif',
       },
       {
         cover:
-          'https://procedencebucket2023.s3.amazonaws.com/ConstructionStock',
-        coverDark:
-          'https://procedencebucket2023.s3.amazonaws.com/procedencebannerimage.jpg',
+          'https://procedencebucket2023.s3.amazonaws.com/photo-1581291518857-4e27b48ff24e.avif',
       },
       {
-        cover: 'https://procedencebucket2023.s3.amazonaws.com/PlaneStock',
-        coverDark: 'https://procedencebucket2023.s3.amazonaws.com/PlaneStock',
+        cover:
+          'https://procedencebucket2023.s3.amazonaws.com/photo-1424298397478-4bd87a6a0f0c.avif',
       },
     ],
   },
@@ -55,19 +51,16 @@ const images = [
       },
 
       {
-        cover: 'https://procedencebucket2023.s3.amazonaws.com/WaveStock',
-        coverDark:
-          'https://assets.maccarianagency.com/screenshots/the-front/img17--dark.png',
+        cover:
+          'https://procedencebucket2023.s3.amazonaws.com/photo-1552664730-d307ca884978.avif',
       },
       {
-        cover: 'https://procedencebucket2023.s3.amazonaws.com/FlagStock',
-        coverDark:
-          'https://assets.maccarianagency.com/screenshots/the-front/img24--dark.png',
+        cover:
+          'https://procedencebucket2023.s3.amazonaws.com/lycs-architecture-U2BI3GMnSSE-unsplash.jpg',
       },
       {
-        cover: 'https://procedencebucket2023.s3.amazonaws.com/KeyboardStock',
-        coverDark:
-          'https://assets.maccarianagency.com/screenshots/the-front/img12--dark.png',
+        cover:
+          'https://procedencebucket2023.s3.amazonaws.com/headway-5QgIuuBxKwM-unsplash.jpg',
       },
     ],
   },
@@ -92,7 +85,7 @@ const Hero = () => {
     >
       <Box paddingY={{ xs: 0, sm: '4rem', md: '8rem' }}>
         <Container>
-          <Box maxWidth={{ xs: 1, sm: '50%' }}>
+          <Box maxWidth={{ xs: 1, sm: '55%' }}>
             <Typography
               variant="h2"
               color="text.primary"
@@ -114,7 +107,7 @@ const Hero = () => {
                   )} 0%)`,
                 }}
               >
-                ideas matter.
+                Performance Matters.
               </Typography>
             </Typography>
             <Typography
