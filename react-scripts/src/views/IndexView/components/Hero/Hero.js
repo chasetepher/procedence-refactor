@@ -12,13 +12,8 @@ const images = [
     group: [
       {
         cover:
-          'https://procedencebucket2023.s3.amazonaws.com/photo-1524758870432-af57e54afa26.avif',
+          'https://procedencebucket2023.s3.amazonaws.com/toa-heftiba-4xe-yVFJCvw-unsplash.jpg',
       },
-      // {
-      //   cover: 'https://procedencebucket2023.s3.amazonaws.com/KeyboardStock',
-      //   coverDark:
-      //     'https://assets.maccarianagency.com/screenshots/the-front/img4--dark.png',
-      // },
       {
         cover:
           'https://procedencebucket2023.s3.amazonaws.com/redd-f-5U_28ojjgms-unsplash+(2).jpg',
@@ -29,15 +24,15 @@ const images = [
     group: [
       {
         cover:
-          'https://procedencebucket2023.s3.amazonaws.com/photo-1601933513556-7926c45d1c49.avif',
+          'https://procedencebucket2023.s3.amazonaws.com/brooke-cagle-cb4Dv50LN1Y-unsplash.jpg',
       },
       {
         cover:
-          'https://procedencebucket2023.s3.amazonaws.com/photo-1581291518857-4e27b48ff24e.avif',
+          'https://procedencebucket2023.s3.amazonaws.com/ant-rozetsky-HXOllTSwrpM-unsplash.jpg',
       },
       {
         cover:
-          'https://procedencebucket2023.s3.amazonaws.com/photo-1424298397478-4bd87a6a0f0c.avif',
+          'https://procedencebucket2023.s3.amazonaws.com/christina-wocintechchat-com-R_W_9D-53lw-unsplash.jpg',
       },
     ],
   },
@@ -45,14 +40,7 @@ const images = [
     group: [
       {
         cover:
-          'https://assets.maccarianagency.com/screenshots/the-front/img6.png',
-        coverDark:
-          'https://assets.maccarianagency.com/screenshots/the-front/img6--dark.png',
-      },
-
-      {
-        cover:
-          'https://procedencebucket2023.s3.amazonaws.com/photo-1552664730-d307ca884978.avif',
+          'https://procedencebucket2023.s3.amazonaws.com/jason-goodman-Oalh2MojUuk-unsplash.jpg',
       },
       {
         cover:
